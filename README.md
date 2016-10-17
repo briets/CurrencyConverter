@@ -22,6 +22,8 @@ php cli.php install
 php cli.php adduser <username> <password>
 ```
 
+The webservice is now accessible via public/CurrencyConverter.php
+
 ## Collecting needed data
 To ensure all data is available as needed (for graph data) you need to run a cron task which will fetch data as needed.You do this by calling 
 the following script every minute in a CLI:
