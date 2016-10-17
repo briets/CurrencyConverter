@@ -1,0 +1,14 @@
+{
+    "require": {
+        "fergusean/nusoap": "^0.9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rickbrunken\\CurrencyConverter\\": "currencyconverter/"
+        },
+        "files": [
+            "./lib/phpwsdl/class.phpwsdl.php",
+            "./lib/redbean/rb.php"
+        ]
+    }
+}
